@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin);
+
+/*ADDS GRADIENT EFFECT TO BACKGROUND OF WEBPAGE */
+body {
+    background: rgb(1,0,0);
+    background: linear-gradient(90deg, rgba(1,0,0,1) 0%, rgb(95, 1, 1) 35%, rgb(134, 3, 3) 100%);
+    color:white;
+    }
+.title{
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive;
+}
+/*SETS COLOR OF HEADERS TO WHITE*/
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Luminari,fantasy, cursive;
+    }
+
+/*SETS THE COLOR, SIZE, AND FONT TYPE OF TEXT*/
+.styles {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    }
+
+/*SETS THE STYLE OF MAIN PAGE TABLE. TABLE WILL STRETCH ACROSS WEBPAGE*/
+.main_table{
+    border-spacing: 0;
+    width:100%;
+    table-layout: auto;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    }
+
+/*SETS THE STYLE OF THE FUSION PAGE TABLE. TABLES WILL BE SMALL  */
+.fusion_tables{
+    border-spacing: 0;
+    width:50%;
+    table-layout: auto;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*SETS TABLE HEADER COLORS AND BACKGROUND COLOR*/
+th{
+    height:35px;
+    background-color: black;
+    }
+/*ALTERNATES TABLE COLORS*/
+tr:nth-child(even){background-color:grey;}
+
+/*THE BELOW WILL CHANGE THE COLOR OF HYPERLINKS WHEN DISPLAYED, VISITED, HOVERED OVER, OR CLICKED*/
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: dimgrey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*USED TO CREATE IMAGE BLOCK PLACEHOLDER */
+#image {
+    line-height: 450px;
+    width: 450px;
+    height: 550px;
+    border: 5px solid black;
+    background-color: white;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin: 0 auto 25px;
+    font-size: 50%;
+}
